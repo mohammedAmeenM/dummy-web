@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import UserSignUpPage from '../pages/user/UserSignUpPage';
 import UserLoginPage from '../pages/user/UserLoginPage';
 import StoryboardPage from '../pages/user/StoryboardPage';
-import ProjectDashBoardPage from '../pages/user/ProjectDashBoardPage';
+import ProjectDashboardPage from '../pages/user/ProjectDashboardPage';
 
 
 function UserRouter() {
@@ -12,7 +12,7 @@ function UserRouter() {
     <Routes>
         <Route path = '/signup' element = {<UserSignUpPage/>} />
         <Route path = '/login' element = {<UserLoginPage/>} />
-        <Route path = '/dashboard' element = {<ProjectDashBoardPage/>} />
+        <Route path = '/dashboard' element = {<ProjectDashboardPage/>} />
         <Route path= '/storyboard' element = {<StoryboardPage/>} />
       
     </Routes>
